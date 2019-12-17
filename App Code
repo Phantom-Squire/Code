@@ -1,17 +1,26 @@
-onEvent("Hub-Drop", "change", function() {
+onEvent("Hub_Drop", "change", function() {
   if (__) {
     
   }
 });
-onEvent("About-Back", "click", function() {
+onEvent("id", "click", function() {
   setScreen("Hub");
 });
-onEvent("PG:1-Back", "click", function() {
+onEvent("id", "click", function() {
   setScreen("Hub");
 });
-onEvent("PG:5-Back", "click", function() {
+onEvent("id", "click", function() {
   setScreen("Hub");
 });
-onEvent("PG:7-Back", "click", function() {
+onEvent("id", "click", function() {
+  setScreen("Hub");
+});
+onEvent("id", "click", function() {
+  setScreen("Hub");
+});
+onEvent("id", "click", function() {
+  setScreen("Hub");
+});
+onEvent("id", "click", function() {
   setScreen("Hub");
 });
