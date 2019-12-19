@@ -1,5 +1,5 @@
-onEvent("Hub-Drop", "change", function(event) {
-  if (getText("Hub-Drop")=="Pg:1") {
-    setScreen("PG:1");
+onEvent("Dropbox", "change", function(event) {
+  if (getText("Dropbox")=="???") {
+    setScreen("???");
   }
 });
