@@ -1,5 +1,5 @@
-onEvent("Hub_Drop", "click", function(event ) {
-  if (getText("Hub_Drop")) {
-    setScreen("screen1");
+onEvent("Hub_Drop", "change", function(event ) {
+  if (getText("Hub_Drop") == "Pg:1") {
+    setScreen("PG:1");
   }
 });
