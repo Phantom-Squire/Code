@@ -1,5 +1,8 @@
-onEvent("Dropbox", "change", function(event) {
-  if (getText("Dropbox")=="???") {
-    setScreen("???");
+onEvent("Hub-Drop", "change", function(event) {
+  if (getText("Hub-Drop")=="Academies") {
+    setScreen("Academies");
   }
+});
+onEvent("Academies-Back", "click", function() {
+  setScreen("Hub");
 });
