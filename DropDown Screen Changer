@@ -1,0 +1,5 @@
+onEvent("Hub_Drop", "click", function(event ) {
+  if (getText("Hub_Drop")) {
+    setScreen("screen1");
+  }
+});
